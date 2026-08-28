@@ -1,5 +1,7 @@
 # ``KLPageCurl``
 
+> [English](../../README.md) · [简体中文](../zh-Hans/README.md) · [繁體中文](../zh-Hant/README.md) · [日本語](../ja/README.md) · [한국어](../ko/README.md)
+
 KLPageCurl은 양면 페이지 순서를 모델링하고 iOS에서 페이지 컬 보기를 제공합니다.
 
 각 논리 항목은 `front(id)`, `back(id)` 순서로 표시됩니다. 뒷면에서 다음으로

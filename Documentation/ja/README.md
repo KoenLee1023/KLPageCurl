@@ -1,5 +1,7 @@
 # ``KLPageCurl``
 
+> [English](../../README.md) · [简体中文](../zh-Hans/README.md) · [繁體中文](../zh-Hant/README.md) · [日本語](../ja/README.md) · [한국어](../ko/README.md)
+
 KLPageCurlは両面ページの並びをモデル化し、iOS向けのページカール表示を提供
 します。
 

@@ -1,5 +1,7 @@
 # ``KLPageCurl``
 
+> [English](../../README.md) · [简体中文](../zh-Hans/README.md) · [繁體中文](../zh-Hant/README.md) · [日本語](../ja/README.md) · [한국어](../ko/README.md)
+
 KLPageCurl用于描述双面页面序列，并在iOS上提供翻页视图。
 
 每个逻辑项目依次显示`front(id)`和`back(id)`。从背面继续向后会到达

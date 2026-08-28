@@ -1,5 +1,7 @@
 # KLPageCurl
 
+> Languages: [English](README.md) · [简体中文](Documentation/zh-Hans/README.md) · [繁體中文](Documentation/zh-Hant/README.md) · [日本語](Documentation/ja/README.md) · [한국어](Documentation/ko/README.md)
+
 `KLPageCurl` models a double-sided page sequence and presents it through a SwiftUI and UIKit page-curl pager on iOS. The sequence, transition state, revision tracking, cache planning, and accessibility values are separate APIs, so an application can use the model without adopting the pager view.
 
 ## Sequence model
@@ -45,8 +47,8 @@ dependencies: [
 
 ## Demos
 
-- [Book preview demo](Examples/BookPreviewDemo/README.md)
-- [Photo album demo](Examples/PhotoAlbumDemo/README.md)
+- [Book preview demo](Examples/BookPreviewDemo)
+- [Photo album demo](Examples/PhotoAlbumDemo)
 
 ## Boundaries
 

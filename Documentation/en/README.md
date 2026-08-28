@@ -1,5 +1,7 @@
 # ``KLPageCurl``
 
+> [English](../../README.md) · [简体中文](../zh-Hans/README.md) · [繁體中文](../zh-Hant/README.md) · [日本語](../ja/README.md) · [한국어](../ko/README.md)
+
 KLPageCurl models a double-sided sequence and provides an iOS page-curl view.
 
 Each logical item appears as `front(id)` followed by `back(id)`. Moving forward
