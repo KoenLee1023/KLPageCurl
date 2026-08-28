@@ -198,10 +198,15 @@ struct KLPageCurlControllerState<
         guard case .ignored = transitionOutcome else {
             let selection = requestedSelection
             requestedSelection = nil
-            let recenter = selection.flatMap { recenter(on: $0) }
+            let pendingRecenter: KLPageCurlControllerRecenter<ID>?
+            if let selection {
+                pendingRecenter = recenter(on: selection)
+            } else {
+                pendingRecenter = nil
+            }
             let finish = KLPageCurlControllerFinish(
                 transitionOutcome: transitionOutcome,
-                recenter: recenter
+                recenter: pendingRecenter
             )
             if let committedSelection = finish.selectionToCommit {
                 observedSelection = committedSelection
